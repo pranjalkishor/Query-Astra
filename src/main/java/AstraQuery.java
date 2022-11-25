@@ -9,9 +9,9 @@ import java.nio.file.Paths;
 
 public class AstraQuery {
 
-    static final String ASTRA_ZIP_FILE = "/Users/pranjal/Documents/Astra-Project/MumbaiDatabasse-Bundle/secure-connect-mydb.zip";
-    static final String ASTRA_USERNAME = "ytKEklPjxdFeOAQPufPJTmxl";
-    static final String ASTRA_PASSWORD = "xYFu.TOofs82wtLoZbW82lGlsdXuoiA2D4ZgC,pX_iJB5nXpmB38ip47qsWwfNm81iQRJ,wrZZuCe1Oyd+LzNSuLL2t,3WzD4btpoZfZ+N0cslrmkAect4a5Mw,Nz-a_";
+    static final String ASTRA_ZIP_FILE = "/path/to/secure-connect-mydb.zip";
+    static final String ASTRA_USERNAME = "CLIENT_ID";
+    static final String ASTRA_PASSWORD = "SECRET_KEY";
     static final String ASTRA_KEYSPACE = "myks";
 
     public static void main(String[] args) {
