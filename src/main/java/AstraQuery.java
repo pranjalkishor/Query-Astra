@@ -44,23 +44,13 @@ public class AstraQuery {
 
         for(int i = 2100; i < 40000 ; i++ )
         {
-
-      //      if((i%1000) == 0)
-      //      {
-
                 city = "this is city"+ i;
                 System.out.println(java.time.LocalDateTime.now());
                 System.out.println("Reading now");
-       //         ResultSet rs = cqlSession.execute(qs1.bind(i,city));
                 ResultSet rs = cqlSession.execute(qs1.bind(i,i+50));
                 for (Row row : rs) {
                 System.out.println(row.getFormattedContents());
                  }
-           //     Row row = rs.one();
-              //  System.out.println(rs.one());
-         //   System.out.format("%s %d\n", rs.getString("city"), rs.getInt("id"));
-
-      //      }
 
         }
 
