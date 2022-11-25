@@ -38,7 +38,6 @@ public class AstraQuery {
         PreparedStatement ps1 = cqlSession.prepare("insert into myks.t1 (id,city,name) values (?,?,?)");
     //    PreparedStatement ps2 = cqlSession.prepare("insert into myks.t2 (id,city,name) values (?,?,?)");
     //    PreparedStatement ps3 = cqlSession.prepare("insert into myks.t3 (id,city,name) values (?,?,?)");
-
     //    PreparedStatement qs1 = cqlSession.prepare("select * from myks.t1 WHERE id = ? and city = ?");
         PreparedStatement qs1 = cqlSession.prepare("select * from myks.t1 WHERE id > ? and id < ? allow filtering");
 
