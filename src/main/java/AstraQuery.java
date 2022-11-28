@@ -9,6 +9,7 @@ import java.nio.file.Paths;
 
 public class AstraQuery {
 
+
     static final String ASTRA_ZIP_FILE = "/path/to/secure-connect-mydb.zip";
     static final String ASTRA_USERNAME = "CLIENT_ID";
     static final String ASTRA_PASSWORD = "SECRET_KEY";
